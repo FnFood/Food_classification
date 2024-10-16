@@ -1,5 +1,5 @@
 # 🍚 K-food AI : 한식이 궁금하다면 사진만 찍으세요!
-![initial](https://private-user-images.githubusercontent.com/168003470/377100360-d4067f65-f70e-433d-9321-cba797dc4891.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkwOTIwODIsIm5iZiI6MTcyOTA5MTc4MiwicGF0aCI6Ii8xNjgwMDM0NzAvMzc3MTAwMzYwLWQ0MDY3ZjY1LWY3MGUtNDMzZC05MzIxLWNiYTc5N2RjNDg5MS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAxNlQxNTE2MjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YzVjODFkZjc2OGRhN2NiYTQyZjI4M2Y3Y2E4Nzk4M2Q3YWJiYmEzYzY5MDAwZGU2ZmM2MGY4ZGMyNjc0YTk4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.kR5651DCIcyj_3qEAL4cEoDOPaupT7c9ivVQ3tEgQeM)
+![initial](https://github.com/user-attachments/assets/d4067f65-f70e-433d-9321-cba797dc4891)
 
 ## 프로젝트 소개
 - 한식에 대한 정보가 부족한 외국인들이 한식의 이름과 관련 정보를 쉽게 알 수 있도록 하기 위해 **한식 이미지를 인식 가능한 딥러닝 모델 개발**
