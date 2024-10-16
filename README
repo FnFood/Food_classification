@@ -1,0 +1,78 @@
+#  🍚 K-food AI : 한식이 궁금하다면 사진만 찍으세요!
+
+<img width="1232" alt="스크린샷 2024-10-16 오후 10 23 47" src="https://github.com/user-attachments/assets/47f4d644-dd8d-4a93-96d0-3e44d677ea5f">
+
+<br>
+
+## 프로젝트 소개
+- 한식에 대한 정보가 부족한 외국인들이 한식의 이름과 관련 정보를 쉽게 알 수 있도록 하기 위해 <b>한식 이미지를 인식 가능한 딥러닝 모델 개발</b>
+
+<br>
+
+## 팀원 소개
+
+<div align="center">
+
+|**김지현**|**강현정**|**김수명**|**김예지**|**손민지**|**한혜승**|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|<img src="https://github.com/Whitmanbeing.png" width="80">|<img src="https://github.com/heyroha.png" width="80">|<img src="https://github.com/Sumyeong-Kim.png" width="80">|<img src="https://github.com/ye-jee-hub.png" width="80">|<img src="https://github.com/eenuskam.png" width="80">|<img src="https://github.com/tmd03.png" width="80">|
+|[GitHub](https://github.com/Whitmanbeing)|[GitHub](https://github.com/heyroha)|[GitHub](https://github.com/Sumyeong-Kim)|[GitHub](https://github.com/ye-jee-hub)|[GitHub](https://github.com/eenuskam)|[GitHub](https://github.com/tmd03)|
+
+</div>
+
+<br>
+
+## 1. 개발환경
+
+- 개발환경 : Jupyter notebook, Google Colab(A100)
+- DL : Resnet18, YOLOv8(n,s,l)
+- 협업 툴 : Slack, Notion
+- 디자인 : [Figma](https://www.figma.com/design/VMDwoKV4GzqOgX2aABLjcQ/%ED%8C%8C%EC%9D%B4%EB%84%90%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=1-2&m=dev&t=1NvERl7hZnqNRuDR-1)
+
+<br>
+
+## 2. 프로젝트 기간
+
+  **- 전체 기간 : 2024-09-06 ~ 2024-10-07 (1개월)**
+  - 주제 선정 : ~ 09-13
+  - 1차 모델링 : ~ 09-28
+  - 모델 선정 후 수동라벨링 : 09-28 ~ 10-01
+  - 2차 모델링 : 10-01 ~ 10-03
+  - EDA / UI, 웹사이트 구현 : 10-03 ~ 10-06
+
+<br>
+
+## 3. 프로젝트 모델
+  - Resnet : [Github](주소)
+  - YOLOv8 : [Github](주소)
+
+### [웹사이트 기능설명]
+**한식 이미지를 업로드하면 인식을 한 후, 레시피를 출력합니다**
+
+1. 홈화면
+- 서비스 접속 홈화면으로 검색창을 누르면 이미지 업로드가 가능합니다
+
+| 홈화면 |
+|----------|
+|[이미지 캡처]|
+
+<br>
+
+2. 음식 인식
+
+   
+3. 원하는 음식 레시피 출력 
+
+<br>
+
+
+## 4. 🫶프로젝트 후기
+
+### 😇 김지현
+### 😎 강현정
+### 🥰 김수명
+### 🤩 김예지
+### 🤩 손민지
+### 🥳 한혜승
+
+ 
