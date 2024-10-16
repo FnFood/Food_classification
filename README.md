@@ -7,7 +7,7 @@
 ## 팀원 소개
 |**김지현**|**강현정**|**김수명**|**김예지**|**손민지**|**한혜승**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|[@Whitman](https://github.com/your-username)|[@heyroha](https://github.com/your-username)|[@Sumyeong-Kim](https://github.com/your-username)|[@ye-jee-hub](https://github.com/your-username)|[@eenuskam](https://github.com/your-username)|[@tmd03](https://github.com/your-username)|
+|[@Whitman](https://github.com/Whitman)|[@heyroha](https://github.com/heyroha)|[@Sumyeong-Kim](https://github.com/Sumyeong-Kim)|[@ye-jee-hub](https://github.com/ye-jee-hub)|[@eenuskam](https://github.com/eenuskam)|[@tmd03](https://github.com/tmd03)|
 
 ## 1. 개발환경
 - 개발환경 : Jupyter notebook, Google Colab(A100)
