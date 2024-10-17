@@ -32,7 +32,7 @@
 - 만개의 레시피 데이터
   * 크롤링을 통한 한국 음식 105종의 데이터
   * 번역 API를 이용해 영문 레시피 생성
-  * [AI Hub 비전 영역 음식 이미지 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71564)
+  * [만개의레시피](https://www.10000recipe.com)
     
 2) 데이터 전처리
 - 초기에는 AI Hub에서 제공된 바운딩 박스 정보를 활용하여 전처리 없이 YOLOv8n 모델을 학습했으나, 성능이 기대치에 미치지 못함
