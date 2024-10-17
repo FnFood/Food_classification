@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>음식 인식 서비스</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>안녕하세요!</h1>
+        <h2><span class="gradient-text">어떤 음식</span>이 궁금하세요?</h2>
+        <p>Hello, what kind of <span class="gradient-text">korean food</span> are you curious about?</p>
+        <div class="vertical-line"></div>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <!-- 이미지 선택 입력 -->
+            <input type="file" id="imageUpload" accept="image/*" class="image-input" style="display: none;" />
+            
+            <div class="search-box">
+                <img src="{{ url_for('static', filename='images/camera.png') }}" alt="카메라 아이콘" id="cameraIcon" class="icon" onclick="document.getElementById('imageUpload').click();">
+                <span>사진으로 검색하기</span>
+                <img src="{{ url_for('static', filename='images/search.png') }}" alt="검색 아이콘" class="icon" id="searchIcon">
+            </div>
+        
+            <!-- 이미지 미리보기 및 삭제 버튼 -->
+            <div id="imagePreviewContainer" class="image-preview-container" style="display: none;">
+                <img id="imagePreview" src="" alt="미리보기 이미지" class="image-preview">
+                <button id="removeImageButton" class="remove-image-button" onclick="removeImage()">X</button>
+            </div>
+        </div>        
+    </main>
+
+    <!-- 홈 화면에서만 필요한 JavaScript -->
+    <script src="{{ url_for('static', filename='home.js') }}"></script>
+</body>
+</html>

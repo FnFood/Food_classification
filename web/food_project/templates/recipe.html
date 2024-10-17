@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- HTML 구조 -->
+    <div class="container">
+        <!-- 상단 섹션 -->
+        <div class="top-section">
+            <!-- 이미지 -->
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/' + food_name + '.jpg') }}" alt="{{ food_name }}">
+            </div>
+            <!-- 카테고리 및 음식명 -->
+            <div class="text-container">
+                <div class="category">{{ food_category }}</div> <!-- 카테고리 -->
+                <div class="food-name">{{ food_name }}</div> <!-- 한글 음식명 -->
+                <div class="food-name-english">{{ food_name_english }}</div> <!-- 영문 음식명 추가 -->
+            </div>
+        </div>
+        <!-- 하단 이미지 및 음식명, 카테고리 -->
+        <div class="bottom-section">
+            <p>한국어 ver</p>
+            <div class="ingredient-box">
+                <h3>재료</h3>
+                <p>{{ recipe['ingredients'] }}</p>
+            </div>
+            <div class="recipe-box">
+                <h3>레시피</h3>
+                <p>{{ formatted_recipe|safe }}</p>
+            </div>
+            <p>English ver</p>
+            <div class="ingredient-box">
+                <h3>ingredient</h3>
+                <p>{{ english_ingredients }}</p>
+            </div>
+            <div class="recipe-box">
+                <h3>recipe</h3>
+                <p>{{ formatted_recipe_english|safe }}</p>
+            </div>
+        </div>
+    </div>
+    <!-- Back 버튼 추가 -->
+    <a href="javascript:history.back()" class="back-button">
+        <img src="{{ url_for('static', filename='images/back.png') }}" alt="뒤로가기">
+    </a>
+</body>
+</html>

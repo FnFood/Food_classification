@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예측 결과</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <!-- back.png 이미지를 추가하고, 클릭하면 home 페이지로 이동 -->
+        <a href="/">
+            <img src="{{ url_for('static', filename='images/back.png') }}" alt="뒤로가기" class="back-button">
+        </a>
+        <h1>이 음식은요...🔍</h1>
+        <h3>다음과 같은 맛있는 음식을 발견했어요!</h3>
+    </header>
+
+    <main>
+        <!--<h2 id="predictedName"></h2>-->
+        <canvas id="predictionCanvas"></canvas>
+
+        <!-- 레시피 버튼 컨테이너 -->
+        <div id="buttonContainer" class="recipe-buttons"></div>
+
+        <script src="{{ url_for('static', filename='result.js') }}"></script>
+        <div id="predictionsData" data-predictions="{{ predictions | tojson | safe }}"></div>
+        <div id="imagePath" data-image-path="{{ image_path }}"></div>
+    </main>
+</body>
+</html>
