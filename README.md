@@ -35,7 +35,7 @@
   * [AI Hub 비전 영역 음식 이미지 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71564)
     
 2) 데이터 전처리
-- 초기에는 AI Hub에서 제공된 바운딩 박스 정보를 활용하여 전처리 없이 YOLOv8n 모델 학습했으나, 성능이 기대치에 미치지 못함
+- 초기에는 AI Hub에서 제공된 바운딩 박스 정보를 활용하여 전처리 없이 YOLOv8n 모델을 학습했으나, 성능이 기대치에 미치지 못함
 - 해결 방안
   * roboflow를 사용해 약 10만 장의 이미지를 수동으로 바운딩 박스의 위치를 수정하여 정확도 향상
   * 기존 데이터셋에서 특정 음식 중심으로 불균형이 발생해 데이터 재구성 및 분포 조정
