@@ -31,7 +31,7 @@
   * [AI Hub 한식 이미지 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=79)
 - 만개의 레시피 데이터  
   * 크롤링을 통한 한국 음식 105종의 데이터  
-  * 번역 API를 이용해 영문 레시피 생성  
+  * 구글번역 API를 이용해 영문 레시피 생성  
   * [만개의레시피](https://www.10000recipe.com)
     
 2) 데이터 전처리
